@@ -120,33 +120,33 @@ const Header = () => {
       {/* MOBILE MENU */}
       {mobileMenu && (
         <div className="space-y-3 shadow bg-white px-6 py-4 md:hidden">
-          <Link className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
+          <Link  to="/sign-in"  className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
             Sign in{" "}
           </Link>
-          <Link className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
+          <Link  to="/menu"  className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
             Menu
           </Link>
-          <Link className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
+          <Link  to="/banquets"  className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
             Banquets
           </Link>
-          <Link className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
+          <Link  to="/catering"  className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
             Catering
           </Link>
-          <Link className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
+          <Link  to="/our-story"  className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
             Our Story
           </Link>
-          <Link className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
+          <Link  to="/events"  className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
             Events
           </Link>
-          <Link className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
+          <Link  to="/giftcards"  className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
             Gift Cards
           </Link>
 
-          <Link className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
+          <Link  to="/hiring"  className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
             We're Hiring
           </Link>
 
-          <Link className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
+          <Link  to="/terms"  className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
             General Terms & Conditions
           </Link>
 
