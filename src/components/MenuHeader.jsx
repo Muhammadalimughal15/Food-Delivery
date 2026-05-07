@@ -161,7 +161,7 @@ const Header = () => {
 
       {/* CART SIDEBAR */}
       {showCart && (
-        <div className="fixed top-0 right-0 w-[350px] h-screen bg-white shadow-2xl p-5 z-50 overflow-y-auto">
+        <div className="fixed top-0 right-0 w-87.5 h-screen bg-white shadow-2xl p-5 z-50 overflow-y-auto">
           {/* TOP */}
           <div className="flex items-center justify-between mb-6">
             <h2 className="text-2xl font-bold">Cart Items</h2>

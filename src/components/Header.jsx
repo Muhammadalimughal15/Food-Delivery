@@ -123,22 +123,22 @@ const Header = () => {
           <Link  to="/sign-in"  className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
             Sign in{" "}
           </Link>
-          <Link  to="/menu"  className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
+          <Link  to="/menu" onClick={() => setMobileMenu(false)} className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
             Menu
           </Link>
-          <Link  to="/banquets"  className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
+          <Link  to="/banquets" onClick={() => setMobileMenu(false)} className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
             Banquets
           </Link>
-          <Link  to="/catering"  className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
+          <Link  to="/catering" onClick={() => setMobileMenu(false)} className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
             Catering
           </Link>
-          <Link  to="/our-story"  className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
+          <Link  to="/our-story" onClick={() => setMobileMenu(false)} className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
             Our Story
           </Link>
-          <Link  to="/events"  className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
+          <Link  to="/events" onClick={() => setMobileMenu(false)} className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
             Events
           </Link>
-          <Link  to="/giftcards"  className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
+          <Link  to="/giftcards" onClick={() => setMobileMenu(false)} className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
             Gift Cards
           </Link>
 
@@ -146,7 +146,7 @@ const Header = () => {
             We're Hiring
           </Link>
 
-          <Link  to="/terms"  className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
+          <Link  to="/terms" onClick={() => setMobileMenu(false)} className="block w-full rounded-md px-4 py-2 hover:bg-gray-100">
             General Terms & Conditions
           </Link>
 
