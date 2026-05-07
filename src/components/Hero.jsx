@@ -3,7 +3,7 @@ import Hero_logo1 from "../assets/Hero_logo.avif"
 import Hero_logo2 from "../assets/Hero2_logo.avif"
 import Hero_logo3 from "../assets/Hero3_logo.avif"
 
-import Button from "../Components/ui/Button"
+import Button from "../components/ui/Button"
 
 const Hero = () => {
   const images = [Hero_logo1, Hero_logo2, Hero_logo3]
@@ -16,7 +16,7 @@ const Hero = () => {
     }, 12000) // 3 seconds
 
     return () => clearInterval(interval)
-  }, [])
+  }, )
 
   return (
     <section className="relative h-195 w-full">

@@ -1,17 +1,17 @@
 import React from "react";
 
-import Hero from "../Components/Hero";
-import Featured from "../Components/Featured";
-import Para from "../Components/Para";
-import Guru from "../Components/Guru";
-import OrderwithEase from "../Components/OrderwithEase";
-import Fooditems from "../Components/Fooditems";
-import Catering from "../Components/Catering";
-import Guest from "../Components/Guest";
-import Featuring from "../Components/Featuring";
-import Rewards from "../Components/Rewards";
-import Frequently from "../Components/Frequently";
-import Location from "../Components/Location";
+import Hero from "../components/Hero";
+import Featured from "../components/Featured";
+import Para from "../components/Para";
+import Guru from "../components/Guru";
+import OrderwithEase from "../components/OrderwithEase";
+import Fooditems from "../components/Fooditems";
+import Catering from "../components/Catering";
+import Guest from "../components/Guest";
+import Featuring from "../components/Featuring";
+import Rewards from "../components/Rewards";
+import Frequently from "../components/Frequently";
+import Location from "../components/Location";
 
 const Home = () => {
   return (

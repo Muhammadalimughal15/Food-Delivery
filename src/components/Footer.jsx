@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../Components/ui/Button";
+import Button from "../components/ui/Button";
 import { assets } from "../assets/assets";
 import qr from "../assets/qr.svg";
 

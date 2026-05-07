@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../Components/ui/Button"
+import Button from "../components/ui/Button"
 
 const Location = () => {
   return (
